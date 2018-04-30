@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Senior Center Info App</string>
+    <string name="border">35dp</string>
+    <string name="open">Open</string>
+    <string name="days_open">Monday - Friday</string>
+    <string name="time_open">8:00 am - 3:00 pm</string>
+    <string name="phone_number">Phone: 707-987-3113</string>
+    <string name="email_address">Email: msrc01@att.net</string>
+    <string name="street_address">21256 Washington Street</string>
+    <string name="po_box">Post Office Box 1037</string>
+    <string name="city_state">Middletown, California 95461</string>
+    <string name="line_text_size">28sp</string>
+    <string name="square_text_size">20sp</string>
+    <string name="text_spacing">10dp</string>
+    <string name="description">The Middletown Senior Center is a private, non-profit agency committed to providing quality services to the seniors of the Middletown, Cobb and Hidden Valley areas. We respond to the needs and interests of older adults and provide activities and services to help them maintain independence.</string>
+</resources>

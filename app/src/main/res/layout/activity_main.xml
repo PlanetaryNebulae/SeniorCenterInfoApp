@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/border_color"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingLeft="@string/border"
+                android:paddingRight="@string/border"
+                android:paddingTop="@string/border"
+                android:src="@drawable/senior_center_logo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/line_color"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@string/text_spacing"
+                android:text="@string/open"
+                android:textAllCaps="true"
+                android:textColor="@color/line_text"
+                android:textSize="@string/line_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/days_open"
+                android:textColor="@color/line_text"
+                android:textSize="@string/line_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@string/text_spacing"
+                android:text="@string/time_open"
+                android:textColor="@color/line_text"
+                android:textSize="@string/line_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@string/border"
+            android:layout_marginRight="@string/border"
+            android:background="@color/square_color"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@string/text_spacing"
+                android:layout_marginTop="@string/text_spacing"
+                android:text="@string/description"
+                android:textColor="@color/square_text"
+                android:textSize="@string/square_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/line_color"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@string/text_spacing"
+                android:layout_marginTop="@string/text_spacing"
+                android:text="@string/phone_number"
+                android:textColor="@color/line_text"
+                android:textSize="@string/line_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@string/border"
+            android:layout_marginLeft="@string/border"
+            android:layout_marginRight="@string/border"
+            android:background="@color/square_color"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@string/text_spacing"
+                android:layout_marginTop="@string/text_spacing"
+                android:text="@string/email_address"
+                android:textColor="@color/square_text"
+                android:textSize="@string/square_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/street_address"
+                android:textColor="@color/square_text"
+                android:textSize="@string/square_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/po_box"
+                android:textColor="@color/square_text"
+                android:textSize="@string/square_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@string/text_spacing"
+                android:text="@string/city_state"
+                android:textColor="@color/square_text"
+                android:textSize="@string/square_text_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
