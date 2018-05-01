@@ -13,16 +13,16 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:paddingLeft="@string/border"
-                android:paddingRight="@string/border"
-                android:paddingTop="@string/border"
+                android:contentDescription="@null"
+                android:paddingLeft="@dimen/border"
+                android:paddingRight="@dimen/border"
+                android:paddingTop="@dimen/border"
                 android:src="@drawable/senior_center_logo" />
 
         </LinearLayout>
@@ -37,46 +37,45 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@string/text_spacing"
+                android:layout_marginTop="@dimen/text_spacing"
                 android:text="@string/open"
                 android:textAllCaps="true"
                 android:textColor="@color/line_text"
-                android:textSize="@string/line_text_size" />
+                android:textSize="@dimen/line_text_size" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/days_open"
                 android:textColor="@color/line_text"
-                android:textSize="@string/line_text_size" />
+                android:textSize="@dimen/line_text_size" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@string/text_spacing"
+                android:layout_marginBottom="@dimen/text_spacing"
                 android:text="@string/time_open"
                 android:textColor="@color/line_text"
-                android:textSize="@string/line_text_size" />
+                android:textSize="@dimen/line_text_size" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@string/border"
-            android:layout_marginRight="@string/border"
+            android:layout_marginLeft="@dimen/border"
+            android:layout_marginRight="@dimen/border"
             android:background="@color/square_color"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="@string/text_spacing"
-                android:layout_marginTop="@string/text_spacing"
+                android:layout_margin="@dimen/text_spacing"
+                android:layout_marginTop="@dimen/text_spacing"
                 android:text="@string/description"
                 android:textColor="@color/square_text"
-                android:textSize="@string/square_text_size" />
+                android:textSize="@dimen/square_text_size" />
 
         </LinearLayout>
 
@@ -84,26 +83,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/line_color"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@string/text_spacing"
-                android:layout_marginTop="@string/text_spacing"
+                android:layout_marginBottom="@dimen/text_spacing"
+                android:layout_marginTop="@dimen/text_spacing"
                 android:text="@string/phone_number"
                 android:textColor="@color/line_text"
-                android:textSize="@string/line_text_size" />
+                android:textSize="@dimen/line_text_size" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@string/border"
-            android:layout_marginLeft="@string/border"
-            android:layout_marginRight="@string/border"
+            android:layout_marginBottom="@dimen/border"
+            android:layout_marginLeft="@dimen/border"
+            android:layout_marginRight="@dimen/border"
             android:background="@color/square_color"
             android:gravity="center"
             android:orientation="vertical">
@@ -111,33 +109,33 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@string/text_spacing"
-                android:layout_marginTop="@string/text_spacing"
+                android:layout_marginBottom="@dimen/text_spacing"
+                android:layout_marginTop="@dimen/text_spacing"
                 android:text="@string/email_address"
                 android:textColor="@color/square_text"
-                android:textSize="@string/square_text_size" />
+                android:textSize="@dimen/square_text_size" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/street_address"
                 android:textColor="@color/square_text"
-                android:textSize="@string/square_text_size" />
+                android:textSize="@dimen/square_text_size" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/po_box"
                 android:textColor="@color/square_text"
-                android:textSize="@string/square_text_size" />
+                android:textSize="@dimen/square_text_size" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@string/text_spacing"
+                android:layout_marginBottom="@dimen/text_spacing"
                 android:text="@string/city_state"
                 android:textColor="@color/square_text"
-                android:textSize="@string/square_text_size" />
+                android:textSize="@dimen/square_text_size" />
 
         </LinearLayout>
 
